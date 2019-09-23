@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+    width: 960px;
+}
+
+#content {
+    background-color: goldenrod;
+    border-left: 10px double gold;
+    border-right: 10px double gold;
+    overflow: auto; /*- nem engedi a túlcsordulást*/
+    /*height: 1000px;*/
+    padding-bottom: 40px;
+}
+
+.right {
+    float: right;
+    height: 300px;
+}
+
+.bio {
+    float: left;
+    width: 400px;
+    border: 3px yellow;
+    background-color: lightgray;
+}
+
+p {
+    text-align: justify;
+}
+
+.clr {
+clear: both;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+}
